@@ -1,0 +1,49 @@
+{
+  "name": "gridhub",
+  "version": "1.0.0",
+  "description": "A decentralized collaboration platform built on LUKSO's Universal Profiles for Hack The Grid hackathon",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "hardhat test",
+    "compile": "hardhat compile"
+  },
+  "keywords": [
+    "lukso",
+    "universal-profiles",
+    "blockchain",
+    "web3",
+    "collaboration",
+    "decentralized",
+    "hack-the-grid"
+  ],
+  "author": "GridHub Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@lukso/lsp-smart-contracts": "^0.11.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "autoprefixer": "^10.4.14",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.38.0",
+    "eslint-config-next": "^13.3.0",
+    "hardhat": "^2.13.1",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@lukso/lsp-factory.js": "^3.1.1",
+    "@openzeppelin/contracts": "^4.8.3",
+    "ethers": "5.7.2",
+    "next": "^13.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@web3-onboard/core": "^2.15.4",
+    "@web3-onboard/injected-wallets": "^2.8.3",
+    "@web3-onboard/lukso": "^1.0.0"
+  }
+}
+

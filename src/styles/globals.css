@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Color scheme */
+  --primary: #6c5ce7;
+  --primary-dark: #5541d7;
+  --primary-light: #8978ea;
+  --secondary: #0984e3;
+  --accent: #74b9ff;
+  --dark: #2d3436;
+  --light: #f8f9fa;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 border border-purple-600 text-purple-600 rounded-md hover:bg-purple-50 transition-colors;
+  }
+  
+  .card {
+    @apply p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow;
+  }
+
+  .input-field {
+    @apply px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent;
+  }
+
+  .section-heading {
+    @apply text-3xl font-bold text-gray-900 mb-6;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-r from-purple-600 to-blue-500;
+  }
+}
+

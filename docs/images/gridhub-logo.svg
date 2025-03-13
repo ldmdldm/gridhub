@@ -1,0 +1,27 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grid Lines -->
+  <line x1="20" y1="50" x2="180" y2="50" stroke="#7242F5" stroke-width="2" />
+  <line x1="20" y1="100" x2="180" y2="100" stroke="#7242F5" stroke-width="2" />
+  <line x1="20" y1="150" x2="180" y2="150" stroke="#7242F5" stroke-width="2" />
+  
+  <line x1="50" y1="20" x2="50" y2="180" stroke="#7242F5" stroke-width="2" />
+  <line x1="100" y1="20" x2="100" y2="180" stroke="#7242F5" stroke-width="2" />
+  <line x1="150" y1="20" x2="150" y2="180" stroke="#7242F5" stroke-width="2" />
+  
+  <!-- Connection Lines to Hub -->
+  <line x1="50" y1="50" x2="100" y2="100" stroke="#5628EE" stroke-width="2.5" />
+  <line x1="150" y1="50" x2="100" y2="100" stroke="#5628EE" stroke-width="2.5" />
+  <line x1="50" y1="150" x2="100" y2="100" stroke="#5628EE" stroke-width="2.5" />
+  <line x1="150" y1="150" x2="100" y2="100" stroke="#5628EE" stroke-width="2.5" />
+  
+  <!-- Grid Points -->
+  <circle cx="50" cy="50" r="5" fill="#7242F5" />
+  <circle cx="150" cy="50" r="5" fill="#7242F5" />
+  <circle cx="50" cy="150" r="5" fill="#7242F5" />
+  <circle cx="150" cy="150" r="5" fill="#7242F5" />
+  
+  <!-- Central Hub -->
+  <circle cx="100" cy="100" r="20" fill="#5628EE" />
+  <circle cx="100" cy="100" r="12" fill="#00ADEF" />
+</svg>
+
