@@ -16,7 +16,7 @@ GridHub is a decentralized collaboration platform built on LUKSO's Universal Pro
 
 As part of the **Hack The Grid** hackathon by LUKSO, GridHub is designed to push mini dApps to the next level by experimenting with AI agents, social DeFi, creator monetization, gamification and novel concepts within the LUKSO ecosystem.
 
-## ✨ Our Main Features
+## 🌐 Our Main Features
 
 - **Universal Profile Integration**: Use LUKSO's Universal Profiles as your digital identity across the platform
 - **Decentralized Collaboration Spaces**: Create, join and manage project spaces with customizable governance models
