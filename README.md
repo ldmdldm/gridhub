@@ -10,8 +10,6 @@
   <h3>Transform Universal Profiles into interactive spaces where digital identity and social interaction collide.</h3>
 </div>
 
-**Project Status**: Developed during [Hack The Grid](https://hack.lukso.network/) hackathon by LUKSO
-
 ## 🌟 Overview
 
 GridHub is a decentralized collaboration platform built on LUKSO's Universal Profiles and The Grid. Our platform is built for coordination, task management and transparent contribution tracking for Web3 projects, the goal is to change how teams collaborate in the decentralized space.
