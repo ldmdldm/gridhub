@@ -7,7 +7,7 @@
 
 <div align="center">
   <img src="public/globe.svg" alt="GridHub Logo" width="200" />
-  <h3>Transform Universal Profiles into interactive spaces where digital identity and social interaction collide.</h3>
+  <h3>A Decentralized Collaboration Platform Built on LUKSO.</h3>
 </div>
 
 ## 🌟 Overview
